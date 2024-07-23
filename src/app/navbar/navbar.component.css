@@ -314,6 +314,9 @@ background-color: rgb(151, 238, 128);
     justify-content: space-between;
     padding: 0 5px;
    }
+   .containers{
+    padding: 0 18px;
+   }
    .logo_info .logo{
     justify-content: start;
 }
