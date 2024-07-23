@@ -96,7 +96,12 @@ section{
 }
 @media screen and (max-width: 650px ) {
     
-
+  section{
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  
     .text_second{
       width: 100%;
     }
