@@ -147,7 +147,7 @@ section{
    
        }
        .tilt_box_cont{
-        margin-top: 20px;
+        margin-top: 20px 0 0 0;
         display: flex;
         justify-content: center;
        }
