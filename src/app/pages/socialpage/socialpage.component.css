@@ -1,58 +1,38 @@
 
+
 section{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 60px 30px;
+    width: 100%;
+    
+
 }
 .container{
-    position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
+    padding: 0;
+    height: 500px;
 }
-
-
-
-.content{
-    position: relative;
-    width: 1150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.content .image{
-  position: relative;
-  width: 700px;
-  height: 400px;
-  overflow: hidden;
-}
-.content .image img{
-    z-index: 111;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-
-
-
 
 .media-info{
-    width: 400px;
-    margin-left: 50px;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.media-info ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
 }
 .media-info li{
-    list-style: none;
     font-size: 27px;
+
 }
+
 .media-info li i{
     position: relative;
     right: 10px;
@@ -68,8 +48,9 @@ section{
     text-decoration: none;
 
 }
+
 .media-info li:not(:last-child){
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .media-info li:nth-child(1),
 .media-info li:nth-child(5){
@@ -78,20 +59,46 @@ section{
 
 .media-info li:nth-child(2),
 .media-info li:nth-child(4){
-    padding-left: 50px;
+    padding-left: 30px;
+}
+
+.image{
+    width: 55%;
+    height: 80%;
+
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
 }
 
 
 
+@media screen and (max-width:670px) {
+    
 
-@media screen and (max-width: 1150px ) {
-    .content{
+
+    .container{
         flex-direction: column;
-        gap: 10px;
+        padding-top: 60px;
+        height: unset;
     }
+    
     .media-info{
+
         order: 1;
-        padding: 10px 0 0 30px;
+        width: 100%;
+        padding-top: 20px;
+
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      
+        
     }
 
+    .image{
+        width: 95%;
+    }
 }
