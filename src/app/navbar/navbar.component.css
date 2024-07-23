@@ -1,8 +1,10 @@
 .containers{
     box-shadow: 3px 3px 33px rgb(221, 216, 216);
     /* padding: 4px; */
-   padding-top: 50px;
-    
+   padding-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
 }
 
 
@@ -294,20 +296,28 @@ background-color: rgb(151, 238, 128);
 
 @media screen and (max-width: 880px ) {
 
- 
+
 
     .pages ul{
+        display: none;
         text-align: center;
         padding-right: 50px;
     }
 
+    .pages_menu{
+        display: block;
+        font-size: 32px;
+        cursor: pointer;
+        padding: 6px;
+       }
  
 
    .logo_info{
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
-    padding: 0 40px;
+    padding: 0 5px;
    }
    .logo_info .logo{
     justify-content: start;
@@ -342,6 +352,15 @@ background-color: rgb(151, 238, 128);
    font-size: 27px;
    color: green;
 }
+
+
+.logo_info{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+   }
 .pages{
    
     position: fixed;

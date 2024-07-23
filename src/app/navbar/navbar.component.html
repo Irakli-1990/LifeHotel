@@ -1,7 +1,6 @@
 <div class="containers">
-    <div class="row">
 
-        <div class="col-md-3 logo_info ">
+        <div class=" logo_info ">
             <div class="logo">
                 <img src="../../assets/lifeHotel/loader.png" alt="">
                 <div routerLink="load" class="logo_text">
@@ -16,7 +15,7 @@
 
   
 
-        <div class="col-md-6 pages text-center"  [class.pages_open]="pageOpen">
+        <div class=" pages text-center"  [class.pages_open]="pageOpen">
             <div class="mobile_logo">
                 <img src="../../assets/lifeHotel/loader.png" alt="">
                 <div class="logo_mobile_text">
@@ -49,7 +48,7 @@
           
         </div>
 
-        <div class="col-md-3 menu_book">
+        <div class=" menu_book">
             <div (click)="dropOpen()" class="drop_menu">
                 <i class="fa-solid fa-bars"></i>
             </div>
@@ -62,10 +61,6 @@
 
 
    
-
-    </div>
-
-
 
    
     <div class="drop_page" [ngClass]="!dropShow ? 'drop_page' : 'drop_page_full' ">
