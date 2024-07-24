@@ -18,7 +18,7 @@ customOptions: OwlOptions = {
   dots: false,
   navSpeed: 700,
   autoplay:true,
-  autoplayTimeout:3000,
+  autoplayTimeout:5000,
   navText: ['', ''],
   responsive: {
     0: {
