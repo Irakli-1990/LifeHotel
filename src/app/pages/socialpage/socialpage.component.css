@@ -29,7 +29,7 @@ section{
 
 }
 .media-info li{
-    font-size: 27px;
+    font-size: 30px;
 
 }
 
@@ -50,7 +50,7 @@ section{
 }
 
 .media-info li:not(:last-child){
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 .media-info li:nth-child(1),
 .media-info li:nth-child(5){
