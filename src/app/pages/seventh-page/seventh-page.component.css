@@ -152,9 +152,8 @@ section{
         justify-content: center;
        }
        .tilt_box{
-    width: 95%;
+    width: 100%;
  
-    background-color: rgb(122, 176, 176);
     margin: 0;
        }
        .tilt_box h3{
