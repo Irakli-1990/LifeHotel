@@ -124,6 +124,12 @@ section{
 
 
 @media screen and (max-width: 600px) {
+
+    .cont_text{
+        margin-bottom: 30px;
+     
+    }
+
        .carus{
         display: none;
        }
