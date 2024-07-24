@@ -74,6 +74,7 @@ section{
     }
     .containers{
         flex-direction: column;
+        padding: 0px;
      }
 
      .cont_image{

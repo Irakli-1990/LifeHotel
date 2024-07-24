@@ -150,9 +150,10 @@ section{
         margin-top: 20px 0 0 0;
         display: flex;
         justify-content: center;
+        padding-right: 5px;
        }
        .tilt_box{
-    width: 100%;
+    width: 95%;
  
     margin: 0;
        }
